@@ -1,0 +1,60 @@
+[
+  {
+    "userID": "55cdd5b71e43104dd4f0b7ef",
+    "toolListName": "Ten Essentials: Data Visualisation",
+    "featured": true,
+    "description": "Tools recommended by Newsroom Tools",
+    "tools": [
+      {
+        "name":"Infogr.am",
+        "jt_what":"A free web app that takes spreadsheets and turns the data into attractive visuals",
+        "jt_why":"Easy-to-use tool that allows you to churn out a graphic quickly, in three simple steps. You can also connect live data sources to your infographics."
+      },
+      {
+        "name":"Datawrapper",
+        "jt_what":"A quick infographics maker aimed squarely at journalists",
+        "jt_why":"Upload your data, choose a template and voila, your chart or map is ready to publish."
+      },
+      {
+        "name":"Mapbox Studio",
+        "jt_what":"A tool that lets you create beautifully designed maps in an instance",
+        "jt_why":"Choose from a variety of map styles, customise with markers, lines and polygons, and publish."
+      },
+      {
+        "name":"Timeline.js",
+        "jt_what":"A tool for building media-rich interactive timelines",
+        "jt_why":"The most popular timeline creator for journalists, it allows for a plethora of content sources, from maps, tweets to videos."
+      },
+      {
+        "name":"Charted",
+        "jt_what":"A simple automatic data visualizer that does exactly what it sets out to do",
+        "jt_why":"It doesn't get easier than this: just paste a link to a Google spreedsheet or .csv file and see your data turn into a beautiful graphic or chart. Extremely straightforward."
+      },
+      {
+        "name":"Draw.io",
+        "jt_what":"A diagramming app that allows you to produce organisational, network or flow charts in a jiffy",
+        "jt_why":"An easy, drag-and-drop diagram drawing tool with a good selection of vector graphics that integrates with Google Drive so you can access your work from anywhere."
+      },
+      {
+        "name":"Google Charts",
+        "jt_what":"Customisable, interactive chart creator that lets you display live data",
+        "jt_why":"A rich gallery of charts from simple line graphs to complex tree maps at your disposal and allows you to export to pngs."
+      },
+      {
+        "name":"Piktochart",
+        "jt_what":"An infographic maker with over 400 customisable themes",
+        "jt_why":"A user-friendly infographic builder with loads of options promising very attractive end products."
+      },
+      {
+        "name":"Raw",
+        "jt_what":"A web app that creates custom-based vector visualisations",
+        "jt_why":"A quick and easy way of visualising your dataset with a drag-and-drop function and ability to customise dimensions and colours to suit your needs."
+      },
+      {
+        "name":"Dipity",
+        "jt_what":"A timeline creator that lets you organise the web's content by date and time",
+        "jt_why":"Easy to navigate, Dipity's timelines are nevertheless rich and interesting since it allows for images, social media, timestamps, location and video to be integrated."
+      }
+    ]
+  }
+]

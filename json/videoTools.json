@@ -1,0 +1,60 @@
+[
+  {
+    "userID": "55cdd5b71e43104dd4f0b7ef",
+    "toolListName": "Ten Essentials: Video",
+    "featured": true,
+    "description": "Tools recommended by Newsroom Tools",
+    "tools": [
+      {
+        "name":"Voddio",
+        "jt_what":"This app allows you to record, edit, send and distribute video.",
+        "jt_why":"It takes time to learn how to use it properly but lots of tutorials available on-line."
+      },
+      {
+        "name":"FilMiCPro",
+        "jt_what":"Shoot, edit, voice and share professional quality video, full manual controls and ability to monitor audio through headphones while recording. ",
+        "jt_why":"If you want to shoot like a pro...with your iphone."
+      },
+      {
+        "name":"Videolicious",
+        "jt_what":"Select your photos or video and record yourself describing them to create a quick montage.",
+        "jt_why":"Produce, cut, edit, and a story in minutes."
+      },
+      {
+        "name":"Splice",
+        "jt_what":"Video editing app.",
+        "jt_why":"Create videos and slideshows, no length limits, watermarks, or ads. Free filters, songs, sound effects, text overlays, transitions, and precise editing tools."
+      },
+      {
+        "name":"Tout",
+        "jt_what":"Quickly publish vidoe content to multiple platforms including social media sites.",
+        "jt_why":"Easy to sign up and use, offers video tutorials."
+      },
+      {
+        "name":"Periscope",
+        "jt_what":"Live stream video from your mobile device.",
+        "jt_why":"Your point of view has never been so easy to share."
+      },
+      {
+        "name":"iMovie",
+        "jt_what":"Edit on a timeline or storyboard-based interface for splicing, trimming, and editing, easy to upload to iCloud",
+        "jt_why":"Easy to use and many tutorials available on-line."
+      },
+      {
+        "name":"Vidtrim Pro",
+        "jt_what":"Video editor and organiser for Android.",
+        "jt_why":"It includes multiple features like trimming, merging, frame grabbing, video effects, extract audio."
+      },
+      {
+        "name":"Vee for Video",
+        "jt_what":"Vee allows you to shoot videos at up to 1080p and with variable frame rates, and then quickly move your video clips into editing.",
+        "jt_why":"High-quality video shooting and editing all within a single app."
+      },
+      {
+        "name":"Cinema FV-5",
+        "jt_what":"Similar to Filmic Pro but for Android devices, allows manual control of video/audio settings.",
+        "jt_why":"Puts professional manual controls at your Droid-held fingertips."
+      }
+    ]
+  }
+]

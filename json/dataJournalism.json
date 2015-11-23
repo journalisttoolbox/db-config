@@ -1,0 +1,70 @@
+[
+  {
+    "userID": "55cdd5b71e43104dd4f0b7ef",
+    "toolListName": "Ten essentials: Data Journalism",
+    "featured": true,
+    "description": "Tools recommended by Newsroom tools",
+    "tools": [
+      {
+        "name":"Excel",
+        "jt_what":"Spreadsheet application belonging to the Microsoft Office suite.",
+        "jt_why":"Needs no introduction. Despite a strong challenge from the young pretender Google Sheets, the venerable spreadsheet package is still a newsroom workhorse.",
+        "EXAMPLES":"Pick a data-driven story and the chances are Excel was used somewhere along the line."
+      },
+      {
+        "name":"OpenRefine",
+        "jt_what":"Tool for exploring and transforming messy datasets.",
+        "jt_why":"The jam to Excel's peanut butter. Formerly Google Refine, OpenRefine is the data cleaning and standardisation tool par excellence, benefitting from a completely open-source codebase and a lively developer community.",
+        "EXAMPLES":""
+      },
+      {
+        "name":"MySQL Community Server",
+        "jt_what":"Relational database management system.",
+        "jt_why":"The world of databases can seem vast and terrifying, but MySQL is still \"the world's most popular open source database\", so you may want to begin your odyssey here.",
+        "EXAMPLES":""
+      },
+      {
+        "name":"Neo4j",
+        "jt_what":"Graph database management system.",
+        "jt_why":"Unlike MySQL (a relational database), Neo4j is a graph database, meaning that it's designed for semantic querying and is particularly useful for exploring relationships between entities (i.e. investigations).",
+        "EXAMPLES":""
+      },
+      {
+        "name":"Google Fusion Tables",
+        "jt_what":"Web-based tool for manipulating, visualising and merging data with other public datasets.",
+        "jt_why":"Google still takes pains to emphasise that Fusion Tables is an \"experimental\" product, but it's been around for years now and is for the most part very stable. Among its many strengths, it's probably the fastest way to map location data on an embeddable map.",
+        "EXAMPLES":""
+      },
+      {
+        "name":"RapidMiner",
+        "jt_what":"Data analytics tool making use of data mining and machine learning procedures.",
+        "jt_why":"A \"big data\" tool finding favour among journalists, RapidMiner enables you to manipulate data non-destructively and save your transformation processes so they can be applied to other datasets.",
+        "EXAMPLES":""
+      },
+      {
+        "name":"D3.js",
+        "jt_what":"JavaScript library for dynamically generating data visualisations using HTML, CSS and SVG.",
+        "jt_why":"For those who prefer to work with code, D3.js (or simply D3) is the closest thing to an industry standard JavaScript library for creating data visualisations. Offering unparalleled control and flexibility, D3 can be tricky to master, but is powerful enough to render any datavis you could imagine. Check out the <a href=\"https://github.com/mbostock/d3/wiki/Gallery\" target=\"_blank\">D3 gallery</a> for a bewildering array of examples.",
+        "EXAMPLES":""
+      },
+      {
+        "name":"Datawrapper",
+        "jt_what":"Web-based tool for creating data visualisations.",
+        "jt_why":"Emphasising efficiency over customisability, Datawrapper is one of the most popular tools for creating embeddable data visualisations. Simply upload your data, select a chart type, make any desired customisations, then publish.",
+        "EXAMPLES":""
+      },
+      {
+        "name":"Highcharts.js",
+        "jt_what":"JavaScript library for dynamically generating data visualisations using HTML, CSS and SVG.",
+        "jt_why":"Another JavaScript datavis library, Highcharts is a little more approachable than D3 for those of us who aren't JavaScript ninjas. The trade-off is that it doesn't quite have D3's range of functionality.",
+        "EXAMPLES":""
+      },
+      {
+        "name":"Tableau Public",
+        "jt_what":"Web-based tool for publishing and visualising data.",
+        "jt_why":"Occupying a space between data publishing services like Google Fusion Tables and visualisation tools like Datawrapper, Tableau Public is the free offering from Tableau which enables users to create visualisations from their own or others' datasets.",
+        "EXAMPLES":""
+      }
+    ]
+  }
+]

@@ -1,0 +1,60 @@
+[
+  {
+    "userID": "55cdd5b71e43104dd4f0b7ef",
+    "toolListName": "Ten essentials: Photo",
+    "featured": true,
+    "description": "Tools recommended by Newsroom tools",
+    "tools": [
+      {
+        "name":"Watermark Software",
+        "jt_what":"Simple batch watermarking to protect your photos with a watermark. Quick and fail proof.",
+        "jt_why":"Protecting your work from copyright infringement and content theft."
+      },
+      {
+        "name":"TinEye",
+        "jt_what":"Reverse image search. Good for fact-checking photos.",
+        "jt_why":"Find out if and where your images have been used."
+      },
+      {
+        "name":"Photoshop Express",
+        "jt_what":"All the necessaries for photo editing, but mobile and tablet friendly.",
+        "jt_why":"When you don't have time to edit from your desk."
+      },
+      {
+        "name":"Thematic",
+        "jt_what":"Responsive, free storytelling platform to showcase your images in high res. ",
+        "jt_why":"Classier than Flickr and easier than making your own website."
+      },
+      {
+        "name":"Storehouse",
+        "jt_what":"Easy to use storytelling platform that combines typography, photos, video clips, and music.",
+        "jt_why":"An immersive editor similar to Medium, but for the visually minded."
+      },
+      {
+        "name":"Dronestagram",
+        "jt_what":"Like Instagram, but for Drone footage.",
+        "jt_why":"A place to show other aerial enthusiasts what your drone has been up to."
+      },
+      {
+        "name":"World Fixer",
+        "jt_what":"Not a photography specific app - but one that connects photographers and fixers abroad. ",
+        "jt_why":"Facilitates the connections needed to get shooting a story that you otherwise wouldn't have been able to have access to."
+      },
+      {
+        "name":"The Photographer's Ephemeris",
+        "jt_what":"A map-centric sun and moon calculator that shows lighting conditions, day or night, for any location on earth.",
+        "jt_why":"Eliminates the guess work out of lighting conditions."
+      },
+      {
+        "name":"Photo Find",
+        "jt_what":"A compass for your geo-tagged photos. ",
+        "jt_why":"Never question \"where was that picture taken?\" again."
+      },
+      {
+        "name":"Compressor",
+        "jt_what":"A web-based tool to compress large images without losing quality.",
+        "jt_why":"Because sending many high res files is often unnecessary. "
+      }
+    ]
+  }
+]

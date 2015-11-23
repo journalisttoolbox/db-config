@@ -1,0 +1,60 @@
+[
+  {
+    "userID": "55cdd5b71e43104dd4f0b7ef",
+    "toolListName": "Ten Essentials: Writing",
+    "featured": true,
+    "description": "Tools recommended by Newsroom Tools",
+    "tools": [
+      {
+        "name":"Grammarly",
+        "jt_what":"A grammar checker that helps you improve your writing.",
+        "jt_why":"It picks out and corrects 10 times more mistakes than a normal word processor can. It also catches spelling errors, and suggests more appropriate words to use."
+      },
+      {
+        "name":"iA Writer Pro",
+        "jt_what":"A minimalist designed writing suite that lets you focus on your writing.",
+        "jt_why":"Simple, yet elegant, this text editor's workflow - note, write, edit, read - trains your mind on your task at hand."
+      },
+      {
+        "name":"Evernote",
+        "jt_what":"A note-taking and archiving platform that allows for pictures, voice, webpage inclusions.",
+        "jt_why":"Keeps your research, notes, writing and all the pieces of the puzzle together in one place. Best of all, it syncs between all your devices, allowing you to work on the go, anywhere."
+      },
+      {
+        "name":"Scrivener",
+        "jt_what":"A content-generating tool that brings together your research, ideas, notes onto one platform.",
+        "jt_why":"A boon for dealing with long-form writing, it lets you work on different sections of your piece by isolating them, making structuring and editing something that could be unwieldy a breeze."
+      },
+      {
+        "name":"Storify",
+        "jt_what":"A content-curation platform that lets you pull various elements from social media into one shareable story.",
+        "jt_why":"Its drag-and-drop function and simple story editor make it easy for tech idiots to put a story together using pictures, tweets, videos from various social media sources."
+      },
+      {
+        "name":"Draft",
+        "jt_what":"A writing tool that lets you edit, share and manage your collaborators' comments and suggestions.",
+        "jt_why":"It allows you to accept or reject edits or suggestions made by your collaborators, instead of have them overwriting your work. It also lets you compare your latest work with your old drafts easily."
+      },
+      {
+        "name":"MindNode",
+        "jt_what":"A mind-mapping tool that lets you plan and visualise your stories.",
+        "jt_why":"Complex storylines get better organised with this app, which helps you map out the structure and flow of your pieces."
+      },
+      {
+        "name":"Dragon Dictation",
+        "jt_what":"A voice-to-text voice recognition and transcription app that allows you to dictate your thoughts and your \"writing\" on the go.",
+        "jt_why":"For days when you're rushing from interviews back to the newsroom and may not have your notebook and pen handy."
+      },
+      {
+        "name":"Poetica",
+        "jt_what":"A text editor that lets other writers collaborate on your content.",
+        "jt_why":"A good visual interface lets you see who has edited what, and allows you to undo previous edits. You can send it off to Wordpress for publishing after."
+      },
+      {
+        "name":"The Guardian Style Guide",
+        "jt_what":"A free guide to proper usage of the English language, according to The Guardian.",
+        "jt_why":"Not sure if it's a or an before H? This style guide has all the answers to your language confusion."
+      }
+    ]
+  }
+]

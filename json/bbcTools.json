@@ -1,0 +1,60 @@
+[
+  {
+    "userID": "55cdd5b71e43104dd4f0b7ef",
+    "toolListName": "BBC News Labs",
+    "featured": true,
+    "description": "Tools recommended by The BBC News Labs",
+    "tools": [
+      {
+        "name":"Elasticsearch",
+        "jt_what":"A database and search engine",
+        "jt_why":"It's flexible and fast, stores data in JSON format (good for data vis) with powerful query capabilities. It also has great aggregation functionality, useful for analytics. We built the Juicer (http://bbcnewslabs.co.uk/projects/juicer/index.html) on Elasticsearch"
+      },
+      {
+        "name":"ArchieML",
+        "jt_what":"A way of structuring text without giving up human readability",
+        "jt_why":"It lets technical and non-technical colleagues contribute and edit content, quickly, without requiring a massive content management system."
+      },
+      {
+        "name":"Jekyll",
+        "jt_what":"A simple static site generator - we use it for bbcnewslabs.co.uk.",
+        "jt_why":"It lets everyone on the team manage the website just by editing markdown files on github. Very simple."
+      },
+      {
+        "name":"R",
+        "jt_what":"A powerful statistics and data visualisation language and environment",
+        "jt_why":"R is the industry standard for quickly and powerfully exploring datasets. "
+      },
+      {
+        "name":"D3",
+        "jt_what":"Javascript library for displaying data on the web",
+        "jt_why":"D3 supports a huge variety of chart types, so once you learn how to use it you can visualise most datasets."
+      },
+      {
+        "name":"Annotator (http://annotatorjs.org/)",
+        "jt_what":"Annotate text, videos, images with this javascript library",
+        "jt_why":"Lets you start adding metadata quickly to any webpage, with a plugin architecture for extensibility"
+      },
+      {
+        "name":"Chart.js (http://www.chartjs.org/)",
+        "jt_what":"Javascript library for HTML5 responsive charts",
+        "jt_why":"Lets you quickly create good-looking, animated and responsive chart"
+      },
+      {
+        "name":"Flot http://www.flotcharts.org",
+        "jt_what":"JavaScript graph plotting for jQuery",
+        "jt_why":"It helped us build WAT (http://wat.bbcnewslabs.co.uk) "
+      },
+      {
+        "name":"Polymaps http://polymaps.org",
+        "jt_what":"An SVG map library, that allows you to mix SVG maps and image tiles",
+        "jt_why":""
+      },
+      {
+        "name":"Font Awesome",
+        "jt_what":"A library of icons expressed in CSS",
+        "jt_why":"It's easy and compatible with CSS frameworks like Twitter's Bootstrap"
+      }
+    ]
+  }
+]

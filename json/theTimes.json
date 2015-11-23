@@ -1,0 +1,60 @@
+[
+  {
+    "userID": "55cdd5b71e43104dd4f0b7ef",
+    "toolListName": "The Times & The Sunday Times",
+    "featured": true,
+    "description": "Tools recommended by The Times & The Sunday Times",
+    "tools": [
+      {
+        "name":"CartoDB",
+        "jt_what":"An easy way to map and analyze location data.",
+        "jt_why":"Gorgeous mapping options.Hugely flexible software."
+      },
+      {
+        "name":"TimelineJS",
+        "jt_what":"Builds visually-rich interactive timelines. ",
+        "jt_why":"Available in 40 languages and incredibly user friendly. "
+      },
+      {
+        "name":"StoryMap JS",
+        "jt_what":"A great tool for creating mapped stories. ",
+        "jt_why":"Excellent visual storytelling device that connects to your Google drive."
+      },
+      {
+        "name":"Batch Geo",
+        "jt_what":"Finds the latitude and longitude coordinates of any address on earth - and then plots it on a map.",
+        "jt_why":"Quick way of generating a map."
+      },
+      {
+        "name":"Google fusion tables",
+        "jt_what":"Basic map and chart building tools.",
+        "jt_why":"Also a great research tool - helpful in finding the story from your data."
+      },
+      {
+        "name":"CardKit",
+        "jt_what":"A simple, configurable, web-based image creation tool. ",
+        "jt_why":"Eliminates the need for a designer or photoshop."
+      },
+      {
+        "name":"Datawrapper",
+        "jt_what":"Simple, quick and easy to use chart builder.",
+        "jt_why":"One of the most user-friendly tools out there. Just upload your CSV or Excel file and your custom visualisation is ready. "
+      },
+      {
+        "name":"Tablecloth data tables",
+        "jt_what":"A jQuery plugin that instantly creates customisable data tables.",
+        "jt_why":"If you've got a bit of coding knowledge, you've got a great tool for beautiful visualisations."
+      },
+      {
+        "name":"Leaflet JS",
+        "jt_what":"Open source JavaScript library to create mobile-friendly, interactive maps. ",
+        "jt_why":"More functionality and features than google fusion tables."
+      },
+      {
+        "name":"Sip",
+        "jt_what":"Simple hex code colour picker for developers, designers and journalists.",
+        "jt_why":"You'll never have to ask your design team about colours again."
+      }
+    ]
+  }
+]
