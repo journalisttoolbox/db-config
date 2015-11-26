@@ -33,7 +33,7 @@ Object.keys(json).forEach(key => {
   obj.categories = splitAndTrim(obj.categories);
 });
 
-fs.writeFile('./new.json', JSON.stringify(json), (err) => {
+fs.writeFile('../tools.json', JSON.stringify(json), (err) => {
   if(err) return console.log(err);
   console.log('file saved');
 });
