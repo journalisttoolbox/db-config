@@ -6,7 +6,7 @@
     "description": "Tools recommended by Newsroom tools",
     "tools": [
       {
-        "name":"Excel",
+        "name":"Microsoft Excel",
         "jt_what":"Spreadsheet application belonging to the Microsoft Office suite.",
         "jt_why":"Needs no introduction. Despite a strong challenge from the young pretender Google Sheets, the venerable spreadsheet package is still a newsroom workhorse.",
         "EXAMPLES":"Pick a data-driven story and the chances are Excel was used somewhere along the line."

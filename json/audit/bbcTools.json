@@ -6,7 +6,7 @@
     "description": "Tools recommended by The BBC News Labs",
     "tools": [
       {
-        "name":"Elasticsearch",
+        "name":"Elastic",
         "jt_what":"A database and search engine",
         "jt_why":"It's flexible and fast, stores data in JSON format (good for data vis) with powerful query capabilities. It also has great aggregation functionality, useful for analytics. We built the Juicer (http://bbcnewslabs.co.uk/projects/juicer/index.html) on Elasticsearch"
       },
@@ -26,27 +26,27 @@
         "jt_why":"R is the industry standard for quickly and powerfully exploring datasets. "
       },
       {
-        "name":"D3",
+        "name":"D3.js",
         "jt_what":"Javascript library for displaying data on the web",
         "jt_why":"D3 supports a huge variety of chart types, so once you learn how to use it you can visualise most datasets."
       },
       {
-        "name":"Annotator (http://annotatorjs.org/)",
+        "name":"Annotator",
         "jt_what":"Annotate text, videos, images with this javascript library",
         "jt_why":"Lets you start adding metadata quickly to any webpage, with a plugin architecture for extensibility"
       },
       {
-        "name":"Chart.js (http://www.chartjs.org/)",
+        "name":"Chart.js",
         "jt_what":"Javascript library for HTML5 responsive charts",
         "jt_why":"Lets you quickly create good-looking, animated and responsive chart"
       },
       {
-        "name":"Flot http://www.flotcharts.org",
+        "name":"Flot",
         "jt_what":"JavaScript graph plotting for jQuery",
         "jt_why":"It helped us build WAT (http://wat.bbcnewslabs.co.uk) "
       },
       {
-        "name":"Polymaps http://polymaps.org",
+        "name":"Polymaps",
         "jt_what":"An SVG map library, that allows you to mix SVG maps and image tiles",
         "jt_why":""
       },
