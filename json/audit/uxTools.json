@@ -1,0 +1,55 @@
+[
+  {
+    "userID": "55cdd5b71e43104dd4f0b7ef",
+    "toolListName": "Useful UX Tools",
+    "featured": true,
+    "description": "Tools recommended by Newsroom Tools",
+    "tools": [
+      {
+        "name":"Axure",
+        "jt_what":"A simple tool to help you design and build navigation prototypes quickly.",
+        "jt_why":"Over half the industry uses it. The ease and price speak for itself. Student pricing available."
+      },
+      {
+        "name":"Moqups",
+        "jt_what":"An excellent web app for creating sketches, wireframes & prototypes with crisp SVG printability. ",
+        "jt_why":"Easily integrates logos and other external files for your company or client. Free up to 300 stencils. "
+      },
+      {
+        "name":"Try My UI",
+        "jt_what":"A quick way to find out where your users are getting lost, stuck, or confused. Stop questioning your user's experience and get the facts. ",
+        "jt_why":"Watch videos of real people using your site, app or prototype. Find out where you're going wrong and where you're going right without having to ask your friends and family for difficult feedback."
+      },
+      {
+        "name":"Sketch App",
+        "jt_what":"An alternative to Photoshop or Illustrator with great built-in grid controls, linked styles and smart measuring guides. ",
+        "jt_why":"It's simple and quick to learn, and its many user friendly features make it a pleasure to work.  We love the ease in which the app lets us reuse elements and the SVG export for icon work is a major bonus. "
+      },
+      {
+        "name":"Balsamiq",
+        "jt_what":"A wireframing tool that focuses on usability. Easy to use interface allows for more time spent on client needs, and less on learning new software.",
+        "jt_why":"Tons of great drag and drop UX options excellent for rapid brainstorming sessions."
+      },
+      {
+        "name":"Omnigraffle",
+        "jt_what":"A diagramming tool with automatic shape recognition. Helps you create precise, beautiful graphics.",
+        "jt_why":"If you are bad at drawing but have an idea of what you wish you could design, this product is for you."
+      },
+      {
+        "name":"MindNode",
+        "jt_what":"A mind-mapping tool that lets you plan and visualise your stories.",
+        "jt_why":"Complex storylines get better organised with this app, which helps you visually map the structure and flow of your work."
+      },
+      {
+        "name":"iA Writer Pro",
+        "jt_what":"A minimalist designed writing and design suite that lets the content speak for itself.  ",
+        "jt_why":"Focus on the content while the app takes care of the design. "
+      },
+      {
+        "name":"Usability Tools",
+        "jt_what":"See your website from your audience's perspective, then ask them how to improve it. ",
+        "jt_why":"Get direct, unbiased feedback from a research panel of over 10 million people worldwide."
+      }
+    ]
+  }
+]

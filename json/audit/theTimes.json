@@ -16,17 +16,17 @@
         "jt_why":"Available in 40 languages and incredibly user friendly. "
       },
       {
-        "name":"StoryMap JS",
+        "name":"Storymap JS",
         "jt_what":"A great tool for creating mapped stories. ",
         "jt_why":"Excellent visual storytelling device that connects to your Google drive."
       },
       {
-        "name":"Batch Geo",
+        "name":"Batch geocoding",
         "jt_what":"Finds the latitude and longitude coordinates of any address on earth - and then plots it on a map.",
         "jt_why":"Quick way of generating a map."
       },
       {
-        "name":"Google fusion tables",
+        "name":"Google Fusion Tables",
         "jt_what":"Basic map and chart building tools.",
         "jt_why":"Also a great research tool - helpful in finding the story from your data."
       },
@@ -41,7 +41,7 @@
         "jt_why":"One of the most user-friendly tools out there. Just upload your CSV or Excel file and your custom visualisation is ready. "
       },
       {
-        "name":"Tablecloth data tables",
+        "name":"Tablecloth JS",
         "jt_what":"A jQuery plugin that instantly creates customisable data tables.",
         "jt_why":"If you've got a bit of coding knowledge, you've got a great tool for beautiful visualisations."
       },
