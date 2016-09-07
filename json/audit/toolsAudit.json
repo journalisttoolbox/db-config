@@ -157,9 +157,9 @@
     "PLATFORM":"Web",
     "ORGANISATIONS":"The Times",
     "DEV_EMAIL":"Contact form only",
-    "DEV_DESC":"\"Fusion Tables is an experimental data visualization web application to gather, visualize, and share data tables.\"",
+    "DEV_DESC": "Fusion Tables is an experimental web application for visualising data. It allows you to store and merge your private data with public data before feeding both into charts and maps. Fusion Tables is mainly used for its mapping functionality. Its geolocation feature plots place-specific data, and styling buckets let you compare different fields from your dataset across your map. You can also opt for a heatmap view, although this isn't yet embeddable, or you can create choropleths by merging your data with a public shapefile. All data is stored on your Drive, and you can choose to share or embed your visualisations after publishing them to the web. Fusion Tables takes local CSV, TSV and TXT files as input, as well as Google Sheets. It can be easily integrated with Google’s other APIs, including the Charts API, the Google Apps Script and Maps API. Fusion Table’s biggest competitor is BatchGeo. The BatchGeo tool geocodes points a lot faster and has a more user-friendly interface, but Fusion Tables gives you more design control and provides BatchGeo’s paid-for features for free. Your choice should depend on whether you’re looking to create an embeddable map or a tool for your own insights - as well as if you already have all the information you want to visualise or need to pull it from elsewhere.",
     "CATEGORY":"Maps",
-    "TAGS":"map maker,interactive map,",
+    "TAGS":"map maker,interactive map",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
     "LOGO_URL":"https://www.google.com/images/icons/product/fusion_tables-128.png",
@@ -181,7 +181,7 @@
     "PLATFORM":"Win,Mac,Linux",
     "ORGANISATIONS":"The Times, The Sunday Times",
     "DEV_EMAIL":"christopher.hutchinson@the-times.co.uk",
-    "DEV_DESC":"\"A simple, configurable, web based image creation tool.\"",
+    "DEV_DESC":"A web-based editing tool for creating shareable social media graphics. Modeled after Vox's 'meme' tool, CardKit lets journalists add text, modify themes and experiment with filters before downloading their completed graphics in shareable dimensions for Facebook, Twitter and YouTube. Developers can fork the code on GitHub and configure the app for in-house use, modifying the templates to match their organisation's branding. Designed to be flexible enough to support multiple templates while also providing standardization across the newsroom, CardKit lets journalists set text, images, filters and themes within the limits set by developers. If you’re a developer looking to customize themes for your newsroom or organisation, you'll need to be able to set up the configuration file. If you’re a journalist looking to create a one-off graphic, you can use the version that’s hosted online. CardKit has been forked on Github by the Guardian, the Financial Times, PBS Frontline and New York Magazine, among many others. It received a commendation in the Online Media Award's Most Effective Media Tools category in 2016.",
     "CATEGORY":"Images, Social",
     "TAGS":"image editor",
     "APPLESTORE_URL":"",
@@ -301,7 +301,7 @@
     "PLATFORM":"Web,Win,Mac,Linux",
     "ORGANISATIONS":"Quartz,NPR,The Wall Street Journal,",
     "DEV_EMAIL":"epasser@qz.com",
-    "DEV_DESC":"\"Chartbuilder is a front-end charting application that facilitates easy creation of simple beautiful charts.\"",
+    "DEV_DESC": "Chartbuilder is a front-end application that takes user input to create exportable charts. Developers can download Chartbuilder and configure default styles to meet their organisations’ specifications. Since it takes zero coding knowledge to use the interface, this tool that has the potential to give everyone in the newsroom the ability to create simple standardized charts without the help of a graphics team. The version of Chartbuilder hosted by Quartz takes JSON or CSV data and allows users to specify the columns they want to graph, the type of chart to create, axis format and data attribution. If users forget to adjust any of the fields, Chartbuilder lists reminders before the Export option, reinforcing best practices for chart design. There’s almost no lost time in playing with different ways of representing your data because the charts are drawn according to user input. The whole process from upload to download should take under fifteen minutes, even for the more finicky journalists. Completed charts can be exported as images, SVGs or JSON files. Chartbuilder uses Facebook’s React framework for its interface, Flux for managing data and D3.js for charting. Styling is done with Stylus, which is similar to CSS but uses white space instead of brackets in its code. Developers looking to configure the tool have some of the best documentation out there to guide them. The tool’s GitHub page provides detailed explanations of the code, the configuration process and Chartbuilder’s dependencies.",
     "CATEGORY":"Charts",
     "TAGS":"chart maker, chart without code",
     "APPLESTORE_URL":"",
@@ -762,7 +762,7 @@
     "TAGS":"word cloud",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -834,7 +834,7 @@
     "TAGS":"geographic data, country data",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -901,7 +901,7 @@
     "PLATFORM":"Web,Win,Mac",
     "ORGANISATIONS":"",
     "DEV_EMAIL":"fromsite@georgemike.com",
-    "DEV_DESC":"\"Copies HTML tables to the clipboard or creates a Google Doc from them.\"",
+    "DEV_DESC":"A Chrome extension for extracting HTML tables from web pages. Think of Table Capture as the Tabula of HTML: it frees up data for analysis that you otherwise don’t have access to. Table Capture detects whether there are table elements on a webpage before becoming visible in your developer toolbar. Click on the icon to select the table you want copied (it will automatically select all it finds) and then choose to copy the table to a Google Sheet or your clipboard. If you’re working with large tables, Table Capture might take a little extra time to move everything over to the clipboard. Although the tool doesn’t have documentation on a webpage or GitHub, the developer pretty actively monitors reviews on the app store in order to provide support. He also invites users to shoot him an email if they have problems using the tool.",
     "CATEGORY":"Data Processing",
     "TAGS":"data scraper",
     "APPLESTORE_URL":"",
@@ -925,7 +925,7 @@
     "PLATFORM":"Web,Win,Mac",
     "ORGANISATIONS":"",
     "DEV_EMAIL":"contact form only",
-    "DEV_DESC":"\"Scraper gets data out of web pages and into spreadsheets.\"",
+    "DEV_DESC":"A Chrome extension for converting elements on a webpage into manipulatable data. Like the now-defunct Kimono web scraper, Scraper requires no coding, just an understanding of HTML sitemaps. Scraper is unique in that it can capture not just HTML elements, but those rendered with JavaScript. Once you build your sitemap, the tool will parse through links, scroll down webpages and click through pagination in order to scrape the details you specify. Scraper opens with developer tools, in the bottom half of your browser. You can build your sitemap by clicking the elements you want to capture in your window and saving them as unique selectors within your sitemap. Data can be downloaded as a CSV or, if your project is a bit bigger, pulled into CouchDB for storage and manipulation. Webscraper.io hosts detailed documentation, as well as its video tutorial and a sequence of screenshots to give you a sense of what the extension looks like in action. Its GitHub pages also walk through scraping procedures for each type of element (links, photos, text, etc.). People who have reviewed Scraper in the app store say there’s a bit of a learning curve — the interface isn’t super user-friendly or intuitive — but if you watch the video tutorial and build in a bit of time for experimenting before diving into an investigation, it’s not too tricky to get it working for you.",
     "CATEGORY":"Data Processing",
     "TAGS":"Journo-Coder",
     "APPLESTORE_URL":"",
@@ -973,7 +973,7 @@
     "PLATFORM":"Win,Mac,Linux",
     "ORGANISATIONS":"ProPublica, The Times of London, Foreign Policy, La Nación (Argentina) and the St. Paul (MN) Pioneer Press",
     "DEV_EMAIL":"@manuelaristaran, @jeremybmerrill, @mtigas",
-    "DEV_DESC":"\"Tabula is a tool for liberating data tables locked inside PDF files.\"",
+    "DEV_DESC":"A tool for extracting data tables locked inside PDFs. Tabula converts data into exportable CSV, JSON or TSV files, allowing it to be processed and analysed. Tabula lets you specify different detection methods in order to adjust for processing errors, but the tool works best with simple formats. You can choose auto-select or manually draw the selection box around the table, and specify whether cells are separated by lines or spaces. The developers encourage you to flag any unprocessable cases with them. Tabula only works with PDFs that contain embedded text — scanned documents aren’t readable. The Help option provides instructions on how to reconfigure a scan to work with the tool. Tabula is also available as a command-line tool called tabula-java. The developers say tabula-java takes slightly less time to process, but it requires more custom inputs to make equivalent selections, and isn’t a good option for journalists who aren’t used to using their terminal.",
     "CATEGORY":"Data Processing",
     "TAGS":"extract data from pdf",
     "APPLESTORE_URL":"",
@@ -1045,12 +1045,12 @@
     "PLATFORM":"Web,Win,Mac,",
     "ORGANISATIONS":"The Guardian, Journalism.co.uk, Fast Company, TNW",
     "DEV_EMAIL":"mail@elliotbentley.com",
-    "DEV_DESC":"\"A free web app to take the pain out of transcribing recorded interviews.\"",
+    "DEV_DESC":"A tool that allows you to easily control audio playback while transcribing. Merging an audio player and text editor in the same web page, oTranscribe saves you the trouble of toggling between windows and applications. It also has keyboard shortcuts for slowing down, speeding up and pausing playback. To use, just upload your file and use the keys to control playback as you type. You can also do some basic text editing, like adding bold and italic formatting, but the really neat feature here is the timestamp shortcut. When clicked, the stamps take you back to the specified moment in the audio, saving time otherwise spent hunting down the correct playback point when triple-checking a quote. oTranscribe works with file formats supported by your browser. On Chrome, that's MP3, Ogg, Webm and Wav audio files, as well as MP4, Ogg and Webm video files. If you're working with MP3, stay away from Mozilla Firefox. You can also link to YouTube videos, as long as you're online. All audio files uploaded to oTranscribe remain private. You can export transcripts as plain text (.txt), Markdown (.mkd) or .otr (oTranscribe files, which preserve the interactivity of the time stamps).",
     "CATEGORY":"Audio,Data Processing",
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -1074,7 +1074,7 @@
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -1098,7 +1098,7 @@
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -1146,7 +1146,7 @@
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -1170,7 +1170,7 @@
     "TAGS":"avatar generator",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -1189,7 +1189,7 @@
     "PLATFORM":"Web,Win,Mac",
     "ORGANISATIONS":"-",
     "DEV_EMAIL":"",
-    "DEV_DESC":"\"The easiest way to identify fonts on web pages.\"",
+    "DEV_DESC":"An extension that detects font styles used on a webpage. To operate, click on the icon in your navbar and mouse over the text you want to analyse. The name of the font will appear in a pop-up window. For more details, click on the text to see the font family, font size, font color and line-height. If you’re really excited about a certain design, you can also Tweet style details straight from this pop-up window. WhatFont is available as an extension for Chrome and Safari, as well as an app for iOS devices. Be sure to refresh any pages you want to try the tool on after you first install it or it won’t work properly. The developer actively monitors app store reviews and responds to user concerns in order to improve the product. She recently removed tracking on the tool and added a font-size detector to the more detailed pop-up after receiving suggestions from users.",
     "CATEGORY":"Design",
     "TAGS":"fonts, identify fonts",
     "APPLESTORE_URL":"",
@@ -1290,7 +1290,7 @@
     "TAGS":"text to html, text to code",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -1357,7 +1357,7 @@
     "PLATFORM":"Web,Win,Mac,Linux",
     "ORGANISATIONS":"-",
     "DEV_EMAIL":"media@wondershare.com",
-    "DEV_DESC":"\"Select your files and upload them. media.io will convert them immediately.\"",
+    "DEV_DESC":"A tool for converting audio to different file formats. You can choose to download the desktop app or use online. Media.io takes obscure formats like DDT, TTA and MPC and outputs them as WAV, MP3, OGG or WMA files. You can also load files from a URL. Select the quality of the output in kilobits per second (kbit/s) and then press “Convert.” There’s absolutely no code-wrangling involved. Media.io has one of the simplest interfaces and most comprehensive list of supported file formats out there. The documentation for supported files is an alphabet soup of options, most of which the average journalist won’t necessarily have heard of. The tool is available in a number of languages other than English, including Dutch, Spanish, French, Italian, Romanian and Chinese (among others). It’s a great tool to keep in your toolkit if you’re working in audio and multimedia.",
     "CATEGORY":"Data Processing",
     "TAGS":"",
     "APPLESTORE_URL":"",
@@ -1386,7 +1386,7 @@
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -1746,7 +1746,7 @@
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -1770,7 +1770,7 @@
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -1794,7 +1794,7 @@
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -1842,7 +1842,7 @@
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -1866,7 +1866,7 @@
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -1890,7 +1890,7 @@
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -1914,7 +1914,7 @@
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -1938,7 +1938,7 @@
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -1962,7 +1962,7 @@
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -2010,7 +2010,7 @@
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -2034,7 +2034,7 @@
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -2058,7 +2058,7 @@
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -2082,7 +2082,7 @@
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -2106,7 +2106,7 @@
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -2130,7 +2130,7 @@
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -2178,7 +2178,7 @@
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -2274,7 +2274,7 @@
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -2298,7 +2298,7 @@
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -2322,7 +2322,7 @@
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -2346,7 +2346,7 @@
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -2370,7 +2370,7 @@
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -2394,7 +2394,7 @@
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -2418,7 +2418,7 @@
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -2442,7 +2442,7 @@
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -2466,7 +2466,7 @@
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -2514,7 +2514,7 @@
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -2538,7 +2538,7 @@
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -2562,7 +2562,7 @@
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -2586,7 +2586,7 @@
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -2610,7 +2610,7 @@
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -2634,7 +2634,7 @@
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -2682,7 +2682,7 @@
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -2706,7 +2706,7 @@
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -2730,7 +2730,7 @@
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -2754,7 +2754,7 @@
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -2778,7 +2778,7 @@
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -2802,7 +2802,7 @@
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -2850,7 +2850,7 @@
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -2874,7 +2874,7 @@
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -2898,7 +2898,7 @@
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -2922,7 +2922,7 @@
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -2946,7 +2946,7 @@
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -2994,7 +2994,7 @@
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -3018,7 +3018,7 @@
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -3066,7 +3066,7 @@
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -3114,7 +3114,7 @@
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -3138,7 +3138,7 @@
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -3162,7 +3162,7 @@
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -3210,7 +3210,7 @@
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -3258,7 +3258,7 @@
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -3282,7 +3282,7 @@
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -3306,7 +3306,7 @@
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -3330,7 +3330,7 @@
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -3354,7 +3354,7 @@
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -3378,7 +3378,7 @@
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -3402,7 +3402,7 @@
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -3426,7 +3426,7 @@
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -3450,7 +3450,7 @@
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -3474,7 +3474,7 @@
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -3522,7 +3522,7 @@
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -3546,7 +3546,7 @@
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -3570,7 +3570,7 @@
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -3594,7 +3594,7 @@
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -3685,12 +3685,12 @@
     "PLATFORM":"Web,Win,Mac,Linux",
     "ORGANISATIONS":"Northwestern University Knight Lab",
     "DEV_EMAIL":"knightlab@northwestern.edu",
-    "DEV_DESC":"\"SoundCite is a simple-to-use tool that helps content creators add audio to their stories. The audio is not isolated in a player positioned off to the side, interrupting the text or housed in a garish player that distracts content consumers from reading. SoundCite's audio is just a link that plays right under the relevant text.\"",
+    "DEV_DESC":"A tool for adding in-line audio to your story. Just input the URL to your audio file, specify start and end points, and copy the embed code. SoundCite works with SoundCloud, MP3 and Ogg files. The player is designed to fit aesthetically with most pages: text is formatted with a light grey background, a progress bar and a play button to start the audio. You can also customize it with some basic CSS (although the progress bar might be a little finicky). The tool’s start and end parameter saves you the trouble of editing your sound files down to the few words or sentences you want to highlight — but if you modify the starting point of a SoundCloud file, the playback might not work perfectly on iOS devices. SoundCite will also work on WordPress, although you’ll have to download a plugin to allow non-administrators to use the embed codes.",
     "CATEGORY":"Audio",
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -3709,12 +3709,12 @@
     "PLATFORM":"Web",
     "ORGANISATIONS":"-",
     "DEV_EMAIL":"info@soundfra.me",
-    "DEV_DESC":"\"SoundFrame came to be because I wanted to enhance storytelling, especially audio storytelling. Being a radio journalist, I thought, we share photos of the places we've been, but what about the sounds? Can we share those too? Well, now you can. Create a map of interviews, pieces, sounds you've recorded, concerts that you've been to... I'll let your creativity guide you.\"",
+    "DEV_DESC":"A tool for integrating audio with interactive maps. Designed by a radio journalist and JavaScript developer, Soundframe lets you tie clips from SoundCloud to markers on a map. While it has some cool features, like allowing search and selection of SoundCloud tracks from the site itself (no copy-and-pasting URLs), it has no design flexibility and comes with a clunky framework for user interaction. Soundframe requires users to click to choose between locations — and click again to play the audio file. Adding text to a pop-up isn’t supported and uploaded images appear pixelated. It also doesn’t generate an embed code for you; you’d have to paste the url into an iframe element to display it on your HTML page. Since the Knight Lab came out with Storymap.js, the advantages of a platform like Soundframe are a bit harder to identify. Storymap offers significantly more flexibility in terms of design, supporting audio files as well as image, video and text. It also animates with keyboard strokes, therefore keeping with one of the golden rules of interactive design: don’t make users click unless something spectacular happens as a result.",
     "CATEGORY":"Maps,Audio",
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -3738,7 +3738,7 @@
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -3762,7 +3762,7 @@
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -3786,7 +3786,7 @@
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -3882,7 +3882,7 @@
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -3906,7 +3906,7 @@
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -3930,7 +3930,7 @@
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -3978,7 +3978,7 @@
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -4002,7 +4002,7 @@
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -4021,12 +4021,12 @@
     "PLATFORM":"Win,Mac,Linux",
     "ORGANISATIONS":"New Scientist,The Los Angeles Times",
     "DEV_EMAIL":"",
-    "DEV_DESC":"\"TileMill is a modern map design studio powered by Node.js and Mapnik.\"",
+    "DEV_DESC":"A mapping platform for developers. Mapbox’s suite of tools includes a design studio, APIs for geocoding and directions, and two Javascript libraries for adding interactivity to your maps. If you’re new to coding, Mapbox Editor provides an easy interface for creating embeddable mapping projects. You can import data to add markers to your map, stylize pop-ups and draw polygons shapes to show areas between points. The platform has more basemap styles than something like Google Fusion tables, so even the off-the-shelf options tend to look customized in comparison. But Mapbox really outshines other tools for the interactivity you get with the JavaScript and WebGL for JavaScript libraries. While the documentation is geared towards developers, an extensive list of code samples provides a workable starting point if you’re familiar with basic JavaScript. After you request an API key, you can adjust the example projects to add lines and choropleth layers, implement search and filtering functionality, and toggle through different layers. The JavaScript library is built on top of Leaflet, so it works with a number of plugins like Omnivore, Minimap and Markercluster. The GL JS library renders maps in WebGL using Mapbox styles and vector tiles. It supports more impressive interactivity like its “fly” functionality, which animates the journey between two points on scroll or click. You can use vector or raster tiles, GeoJSON files, images or video as sources for layers, which are formatted using layout and paint attributes. The JavaScript libraries can be used to add interactivity to custom maps you make in Mapbox Studio, which are incompatible with Mapbox Editor. Both libraries are free up to a certain number of map views, and the design and development teams are very much active in consistently improving the platform.",
     "CATEGORY":"",
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -4050,7 +4050,7 @@
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"Times, beginner_list",
     "JT_WHAT":"A tool for building media-rich interactive timelines",
     "JT_WHY":"The most popular timeline creator for journalists, it allows for a plethora of content sources, from maps, tweets to videos."
@@ -4074,7 +4074,7 @@
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -4098,7 +4098,7 @@
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -4122,7 +4122,7 @@
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -4146,7 +4146,7 @@
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -4170,7 +4170,7 @@
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -4194,7 +4194,7 @@
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -4218,7 +4218,7 @@
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -4242,7 +4242,7 @@
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -4266,7 +4266,7 @@
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -4290,7 +4290,7 @@
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -4458,7 +4458,7 @@
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"beginner_list",
     "JT_WHAT":"A simple automatic data visualizer that does exactly what it sets out to do",
     "JT_WHY":"It doesn't get easier than this: just paste a link to a Google spreedsheet or .csv file and see your data turn into a beautiful graphic or chart. Extremely straightforward."
@@ -4482,7 +4482,7 @@
     "TAGS":"",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -4962,7 +4962,7 @@
     "TAGS":"geolocation,image,social networks,googlemaps",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -5653,12 +5653,12 @@
     "PLATFORM":"Web,Win,Mac,Linux",
     "ORGANISATIONS":"Mother Jones, Wired, The Atlantic, The Times and The Sunday Times",
     "DEV_EMAIL":"",
-    "DEV_DESC":"\"We geocode your postcodes / addresses and make your map.\"",
+    "DEV_DESC":"BatchGeo is one of the fastest tools available for visualising location-specific data. Go from a CSV file to a map just by copying and pasting your data table into a generator tool on the website and pressing “Make Map”. It’s much faster than its more popular rival, Google Fusion Tables, and its simple interface is accessible for even the most spreadsheet-illiterate journalists. BatchGeo generates an embed code for the outputted map, but since it offers zero design control you’re better off sharing it as a research tool than sticking it into your HTML. You can choose which elements of your data you want to compare with a dropdown selector, allowing you to easily toggle between different fields once the information is mapped. You can keep confidential data private with BatchGeo Pro, but if you’re using the free version avoid dumping sensitive information into the generator. The Pro version also offers heat map visualisations, Google street view, advanced data selection and 10x faster geocoding, along with privacy features.",
     "CATEGORY":"Maps",
     "TAGS":"mapmaking, geocoding, lat long coordinates, csv to map",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"Times",
     "JT_WHAT":"Finds the latitude and longitude coordinates of any address on earth - and then plots it on a map.",
     "JT_WHY":"Quick way of generating a map."
@@ -5677,12 +5677,12 @@
     "PLATFORM":"Win,Mac,Linux",
     "ORGANISATIONS":"The Times, The Sunday Times",
     "DEV_EMAIL":"",
-    "DEV_DESC":"\"tablecloth.js is a jQuery plugin that helps you easily style HTML tables along with some simple customizations.\"",
+    "DEV_DESC":"Tablecloth.js is a jQuery plugin that allows you to easily format tables in HTML. It won’t be the flashiest tool in your toolkit, but it’s a time-saving alternative to painstakingly styling clean-looking charts with CSS classes. Tablecloth automatically updates all table elements in your code with specified styling, which you can set using just a few lines of JavaScript. Choose between the four pre-designed themes included in Tablecloth’s CSS file and play with formatting options like striped rows, cell borders and condensed layout. Tablecloth also includes the Tablesorter plugin, which lets you make data filterable by column. While the tool doesn’t have extensive documentation, formatting options are fairly intuitive when you take a look at the README file. To use Tablecloth, download the zip file from Github and place it in your site’s root directory.",
     "CATEGORY":"Charts",
     "TAGS":"data vis, data visualisations, jQuery plugins",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"Times",
     "JT_WHAT":"A jQuery plugin that instantly creates customisable data tables.",
     "JT_WHY":"If you've got a bit of coding knowledge, you've got a great tool for beautiful visualisations."
@@ -5725,7 +5725,7 @@
     "PLATFORM":"Web,Mac",
     "ORGANISATIONS":"The Times, The Sunday Times",
     "DEV_EMAIL":"",
-    "DEV_DESC":"\"The refreshingly simple color picker that instantly samples and encodes any color on your screen. Just one quick click to savor the flavor and you're set! See what’s on special with Sip below.\"",
+    "DEV_DESC":"A tool for sampling and encoding colors directly from your screen. With a magnifier, a collection of keyboard shortcuts and over 30 color-encoding formats to choose from, Sip is both user-friendly and highly customizable for its genre. Sip lives on the menu bar at the top of your screen, where you can access it without navigating between tabs or windows. Whereas most products in the same category offer encoding in HEX, CMYK and RGBA, Sip lets you additionally choose from ARGB, XL, HSL and HSB for specific programming languages like Swift, Java and OpenGL. It also generates unique names for your swatches, meaning that you don't have to communicate in strings of six-digit numbers on your newsroom Slack channels anymore. A Pro version, which includes features like multi-color sampling and palette synchronization between devices, costs $9.99. A custom color dock also lets you create and store your own palettes.",
     "CATEGORY":"Design",
     "TAGS":"color picker, hex picker",
     "APPLESTORE_URL":"https://itunes.apple.com/us/app/id507257563?mt=12",
@@ -6229,7 +6229,7 @@
     "PLATFORM":"Win, Mac, Linux",
     "ORGANISATIONS":"BBC",
     "DEV_EMAIL":"",
-    "DEV_DESC":"Annotator is an open-source JavaScript library to easily add annotation functionality to any webpage. Annotations can have comments, tags, links, users, and more.Annotator is designed for easy extensibility so its a cinch to add a new feature or behaviour. Annotator also fosters an active developer community with contributors from four continents, building 3rd party plugins allowing the annotation of PDFs, EPUBs, videos, images, sound, and more.",
+    "DEV_DESC":"A Javascript library that gives annotating functionality to web pages. With modules that extend control over annotations on your page, Annotator is one of the more customizable libraries of its kind. However, it’s primarily been used with academic projects, while Genius — a Chrome extension that lets you annotate any page on the web — remains the newsroom favourite for its comparative ease of use. Your choice should depend on your level of coding ability and the amount of control you want to exert over who can annotate what. You can use the default version of Annotator by including a script tag in your HTML file. It’s also available through npm but works better with browserify or webpack than Node. Activating the default version of Annotator doesn’t give you any of the control features that give it a leg up on Genius; to access those, you need to use its modules. Annotator modules allow you to authorize only certain users and store metadata associated with comments. The authz and identity modules allow you to control for what elements on your page can be commented on, and limits those elements to certain user IDs. You can store annotation data on a remote server, as well as add and remove annotations using the storage API. Configuring the Annotator user interface module allows you to add a tags field to your annotations. It also supports annotations in Markdown. If you’re looking to add additional functionality to your site, there’s support for building your own modules, as well as a fairly long list of plugins developed by the Annotator community for things like annotating videos, formatting annotations in the margins of a page, storing geolocation and sharing annotations to social media. Many of the plugins come out of academic institutions, including Harvard and MIT, where Annotator is used. Genius is the main alternative to Annotator and the favorite of the U.S. media: it’s been used by the Washington Post, the LA times and the New York Times to annotate speeches along the 2016 campaign trail.  You can include Genius on your page by adding a script tag in your header; users who are registered with the site can automatically add their own comments to the page as well. Genius comes with documentation written to a lower level of coding knowledge, and it requires no installation or configuration. The documentation for Annotator is fairly easy to parse if you come from a coding background, and there are a few code samples sprinkled throughout, but Genius will definitely be more accessible to beginners and newsrooms not interested in losing a developer for a day or two to configure the former.",
     "CATEGORY":"Data processing",
     "TAGS":"",
     "APPLESTORE_URL":"",
@@ -6253,7 +6253,7 @@
     "PLATFORM":"Win, Mac, Linux",
     "ORGANISATIONS":"BBC",
     "DEV_EMAIL":"hello@nickdownie.com",
-    "DEV_DESC":"Simple, clean and engaging charts for designers and developers",
+    "DEV_DESC":"A tool for quickly building clean and responsive charts with HTML5 Canvas. With well-documented configuration instructions, Chart.js is one of the easier JavaScript charting libraries to customize. Chart.js includes eight different chart types, including the less frequently used polar and radar charts. The site provides code samples for each, so journalists just getting started with JavaScript can plug in their data and render a chart fairly easily. Whether you’re a beginner or a more experienced developer, one of this library’s best features is its flexibility. Whereas other JavaScript libraries provide limited configuration options, Chart.js gives you control over everything from the format of the tooltip to the tension of a line on a line graph. For even more functionality, users can explore the library’s plugins, which include support for annotation and adding interactivity like zooming and panning. The configuration options are thoroughly documented and demonstrated in code samples on the site. For developers looking to write their own controllers for new scales and charts, there’s also detailed explanation of the interface structure.",
     "CATEGORY":"Charts",
     "TAGS":"",
     "APPLESTORE_URL":"",
@@ -6325,7 +6325,7 @@
     "PLATFORM":"Win, Mac, Linux",
     "ORGANISATIONS":"BBC",
     "DEV_EMAIL":"https://twitter.com/davegandy",
-    "DEV_DESC":"Font Awesome gives you scalable vector icons that can instantly be customized — size, color, drop shadow, and anything that can be done with the power of CSS.",
+    "DEV_DESC":"A collection of 634 scalable vector icons that can be customized using CSS. With one line of code at the top of your webpage you can access icons for maps, companies, social media, text editing, directionality, charts and more. Place Font Awesome icons on your page with an HTML icon tag and set the class to the name of the symbol you want to use. As vectors, the icons are infinitely scalable so you never have to worry about pixelation. They also come with preset options for resizing, animating and stacking, making it easy to customize the formatting directly through the class attribute. Font Awesome's library is regularly updated with new icons suggested by an active community of coders and developers. By using the one-line CDN (content delivery network) to access the collection, you'll be able to play with new additions without installing updates. You can consult the Font Awesome cheat sheet for icon names and styles. If you're looking for a more unique aesthetic, the creators of Font Awesome recently released a paid-for collection of icons called Black Tie. Fort Awesome, which will further decrease load time by only including icons used on a page, is another paid-for iteration that's currently under development.",
     "CATEGORY":"Design",
     "TAGS":"",
     "APPLESTORE_URL":"",
@@ -6373,7 +6373,7 @@
     "PLATFORM":"Apple, Android",
     "ORGANISATIONS":"",
     "DEV_EMAIL":"https://ifttt.com/press",
-    "DEV_DESC":"IFTTT gives you creative control over the products and apps you love.",
+    "DEV_DESC":"IFTTT (If This Then That) is a tool for maximizing productivity and automating workflow. It connects applications and devices with \"recipes\" that specify certain outcomes (\"then that\") if certain conditions are met (\"if this\"). The site provides off-the-shelf recipes for research and publishing processes, but journalists can also easily create their own. The only tech savvy you need to use IFTTT is knowledge of the apps themselves. Many industry publications and individual journalists have shared some of their favourite recipes for research. Some of the more popular examples are saving Tweets (or other social media posts) to a Google Spreadsheet if they contain a certain hashtag, come from a certain account, or are tweeted from a specific location; sending email alerts when a bill is signed into law; and writing text message alerts when natural disasters occur. In addition to \"IF\" recipes, you can also write \"DO\" recipes, which save and execute specified action with just a tap of a button.",
     "CATEGORY":"",
     "TAGS":"",
     "APPLESTORE_URL":"",
@@ -6565,7 +6565,7 @@
     "PLATFORM":"Win,Mac,Linux",
     "ORGANISATIONS":"",
     "DEV_EMAIL":"riccardoscalco@gmail.com",
-    "DEV_DESC":"\"SVG patterns for Data Visualization.\"",
+    "DEV_DESC":"A tool for stylizing SVG objects with customized patterns. Textures comes with a set of predefined patterns: lines, circles and paths. Paths are further broken down into hexagons, crosses, caps, woven, waves, nylon and squares. To access, set a variable in your JavaScript equal to your chosen pattern, call the variable and set your SVG element’s fill equal to its url function. The code for doing this is provided on the website, and should be self-explanatory if you’re used to working with SVGs in libraries like D3.js. Once you specify the basic pattern type you’d like to use, you’re given a number of other options for customizing your texture. You can set colors, borders, weights and sizes, as well as attributes like orientation, shape rendering and thickness of the pattern. The attributes make patterns highly customizable, and allow you to get a lot of mileage out of the library. While Textures is a simple tool for journalists already working with SVGs, its advertised use flies against best visualisation practices. The site uses choropleth maps to demo the tool, and claims that “textures of increasing size can represent an order of relation.” Patterns are more difficult for readers to make sense of than colors or size, so creating a map where textures represent increasing orders of magnitude isn’t going to get the job done nearly as well as smartly selecting colors with a tool like ColorBrewer. Be wary of falling for the novelty element and, in most cases, limit yourself to one pattern for your entire dataset. Otherwise, you’re inviting distraction rather than comprehension.",
     "CATEGORY":"Charts, Design",
     "TAGS":"svg, data vis, data visualisation",
     "APPLESTORE_URL":"",
@@ -6594,7 +6594,7 @@
     "TAGS":"javascript library, flow diagrams, sankey diagrams",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -6738,7 +6738,7 @@
     "TAGS":"family graphs, ancestral timeline, interactive family tree",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -6762,7 +6762,7 @@
     "TAGS":"data vis, data viz, data visualisation, jquery",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -7050,7 +7050,7 @@
     "TAGS":"jquery charts, interactive charts, interactive graphs, data vis, data visualisation",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -7170,7 +7170,7 @@
     "TAGS":"interactive charts, interactive graphs, data vis, data visualisation",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -7405,7 +7405,7 @@
     "PLATFORM":"Web,Win,Mac,Linux",
     "ORGANISATIONS":"",
     "DEV_EMAIL":"",
-    "DEV_DESC":"\"Google chart tools are powerful, simple to use, and free. Try out our rich gallery of interactive charts and data tools.\"",
+    "DEV_DESC":"A tool for creating interactive charts in JavaScript. Google Charts offers on of the largest selections of chart types of any other JavaScript library of similar difficulty level. In addition to your standard pie / line / bar graph, you also can select from calendar charts, sankey diagrams and word trees. The library comes with a range of configuration options, which are listed in the documentation for each type of chart. Most chart types support annotation, animation and customized tooltips, in addition to basic control over color, text styling, axis and legends. Data can be added using either the custom DataTable class or by importing from Google Sheets or Fusion Tables. Google Charts won’t ingest data from a local file, meaning you’ll need to transfer CSV files to a web server and query that url to access it, or else move it over to Sheets. This process is less flexible than in alternatives like Datawrapper or Chart.js, and makes Google Charts more attractive for smaller datasets that can be transferred to the DataTable class or a Google Sheet than for more complex files. The number of charting options makes it a good resource for journalists wanting a unique chart type who might not be able to use a more customizable library like D3.js. Documentation for synchronizing multiple charts in dashboards is also a bonus feature for the more ambitious journo-coders, and something that similar libraries don’t tend to make quite as simple (Plot.ly being the exception). If you’re a JavaScript newbie, Google Charts has some of the best resources for tinkering in an unfamiliar coding language. The documentation is written for a more general audience than similar tools’, and all the charts get individualized walk-throughs with complimentary code samples. You can also experiment with example code in JSFiddle before trying to implement it in your own webpage.",
     "CATEGORY":"Charts",
     "TAGS":"interactive charts, interactive graphs, excel to chart, data vis, data visualisation",
     "APPLESTORE_URL":"",
@@ -7722,7 +7722,7 @@
     "TAGS":"twitter,scraping",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -7746,7 +7746,7 @@
     "TAGS":"reading recommendations,archive",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -7770,7 +7770,7 @@
     "TAGS":"viral content",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -7794,7 +7794,7 @@
     "TAGS":"audio visualisation, audio and visual",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -7818,7 +7818,7 @@
     "TAGS":"trends, viral content",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -7842,7 +7842,7 @@
     "TAGS":"cms, content management",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -7866,7 +7866,7 @@
     "TAGS":"content management, research",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -7890,7 +7890,7 @@
     "TAGS":"reading recommendations,intelligent reading list",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -7914,7 +7914,7 @@
     "TAGS":"story comparison, competitor comparison",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
@@ -8053,7 +8053,7 @@
     "PLATFORM":"Win,Mac,Linux",
     "ORGANISATIONS":"",
     "DEV_EMAIL":"",
-    "DEV_DESC":"\"Unfluence is a web program that generates interactive network maps of state level political contribution data.\" ",
+    "DEV_DESC":"Unfluence is a tool that generates network maps of contributions to U.S. state politicians — but only up through the year 2008. It queries the National Institute on Money in State Politics’ API for funding data and Project VoteSmart for information on the politicians. Journalists should proceed with caution: while the project makes for an interesting visual research tool, accuracy isn’t guaranteed, and the developers say you can only “maybe” trust the results your query generates. You can use it as a question-generator and with the knowledge that you’ll need to do your own legwork to fact check any interesting results. Because it’s limited to historical data, its utility —if any — will be limited to journalists working on historical investigations. The query interface is simple to use, and lets you search by election year, region of interest, office race, contributor industry and minimum contribution value. After you generate your network map, you can click on the politician's node for more information from the VoteSmart API. You can also edit your query to show the entire network of contributions, which provides a greater level of detail after you pick through any potential large-scale scandals. Overall, the tool isn’t a great one to keep in your toolbox unless you have a particular project in mind within the timeframe it covers.",
     "CATEGORY":"Data processing, Research",
     "TAGS":"map political data, political contributions, us politics",
     "APPLESTORE_URL":"",
@@ -8130,7 +8130,7 @@
     "TAGS":"mockups, ux, ui, front end development, front end design",
     "APPLESTORE_URL":"",
     "GOOGLEPLAY_URL":"",
-    "LOGO_URL":"-",
+    "LOGO_URL":"",
     "CURATED_LIST":"",
     "JT_WHAT":"",
     "JT_WHY":""
