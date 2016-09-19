@@ -34,7 +34,11 @@ Object.keys(json).forEach(key => {
   obj.price = obj.PRICING; delete obj.PRICING;
   obj.platforms = obj.PLATFORM; delete obj.PLATFORM;
   obj.companies = obj.ORGANISATIONS; delete obj.ORGANISATIONS;
-  obj.description = obj.DEV_DESC; delete obj.DEV_DESC;
+  obj.description = obj.REVIEW_DESC; delete obj.REVIEW_DESC;
+  obj.documentation = obj.REVIEW_DOC; delete obj.REVIEW_DOC;
+  obj.tutorials = obj.REVIEW_TUT; delete obj.REVIEW_TUT;
+  obj.custom = obj.REVIEW_CUST; delete obj.REVIEW_CUST;
+  obj.installation = obj.REVIEW_INST; delete obj.REVIEW_INST;
   obj.categories = obj.CATEGORY; delete obj.CATEGORY;
   obj.logo_url = obj.LOGO_URL; delete obj.LOGO_URL;
 
